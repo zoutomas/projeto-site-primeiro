@@ -5,16 +5,35 @@
 
 
 body {
-    background-color: rgb(117, 13, 121)
+    background-color: rgb(15, 2, 15)
     
 
 }
 
 
 main{
-    background-color: white;
+    background-color: rgba(244, 243, 247, 0.952);
     width: 500px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
+    box-shadow: 3px 3px 5px rgba(211, 66, 66, 0.397);
 }
+
+
+
+main {
+    border: 4px double;
+    border-image: linear-gradient(135deg,#00ffc8 0%, #1900ff 100%) 1;
+    backdrop-filter: blur(10px);
+}
+
+p {
+    color: rgb(15, 8, 8);
+}
+
+
+h1{
+    color: red
+}
+
+
